@@ -18,7 +18,7 @@ function Navbar() {
                     <a class="nav-link" href="index2.html">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="contact2.html">Contact</a>
+                    <a class="nav-link" href="Contact.html">Contact</a>
                     </li>
                 </ul>
                 </div>

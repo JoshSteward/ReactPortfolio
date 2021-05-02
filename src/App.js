@@ -6,6 +6,12 @@ import Navbar from './Components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact ';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 function App() {
@@ -14,8 +20,16 @@ function App() {
     <Header />
     <Navbar></Navbar>
     <About />
-    <Projects />
-    <Contact />
+    <Router>
+      <Switch>
+        <Route path="/">
+          <Projects />
+        </Route>
+        <Route path="/Contact.html">
+          <Contact/>
+        </Route>
+      </Switch>
+    </Router>
     <Footer />
     </div>
   );
