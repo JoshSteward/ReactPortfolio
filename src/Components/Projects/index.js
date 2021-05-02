@@ -29,7 +29,7 @@ function Projects() {
                 <div class="col-md-5 p-lg-5 mx-auto my-5">
                     <h1 class="display-4 fw-normal">Eat the burger</h1>
                     <p class="lead fw-normal">Create and Eat the burger using this application</p>
-                    <a class="btn btn-outline-secondary" href="https://github.com/JoshSteward/Employee-Tracker">Click to lauch</a>
+                    <a class="btn btn-outline-secondary" href="https://github.com/JoshSteward/EatBurger">Click to lauch</a>
                     <div class="bg-dark shadow-sm mx-auto">
                     </div>
                 </div>
