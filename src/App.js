@@ -4,6 +4,7 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Navbar from './Components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Projects from './Components/Projects';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Header />
     <Navbar></Navbar>
     <About />
+    <Projects />
     <Footer />
     </div>
   );
