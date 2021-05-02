@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 function Navbar() {
     return(
@@ -10,19 +16,20 @@ function Navbar() {
                 <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-            
+            <Router>
             <div class = "col-md-2">
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                    <a class="nav-link" href="index2.html">About <span class="sr-only">(current)</span></a>
+                        <Link to="/">Projects</Link>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="Contact.html">Contact</a>
+                    <Link to="/Contact">Contact</Link>
                     </li>
                 </ul>
                 </div>
             </div>
+            </Router>
         </div>
     </nav>
     );
