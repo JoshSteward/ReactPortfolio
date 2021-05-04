@@ -12,6 +12,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import React from 'react';
 
 
 function App() {
@@ -22,12 +23,8 @@ function App() {
     <About />
     <Router>
       <Switch>
-        <Route path="/">
-          <Projects />
-        </Route>
-        <Route path="/Contact">
-          <Contact/>
-        </Route>
+        <Route exact path="/" component={Projects}></Route>
+        <Route exact path="/Contact" component={Contact}></Route>
       </Switch>
     </Router>
     <Footer />
